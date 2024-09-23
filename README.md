@@ -31,17 +31,17 @@ This is a simple React component that displays exchange rates for a list of curr
 
 ## ⚙️ Installation
 
-    1. Clone the repository:
+### 1. Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/exchange-rate-table.git
 cd exchange-rate-table
 ```
-    2. Install the required dependencies:
+### 2. Install the required dependencies:
 ```bash
   npm install
 ```
-    3. Create a .env file in the root directory and add your API key and base URL:
+### 3. Create a .env file in the root directory and add your API key and base URL:
 ```bash
 VITE_CURRENCY_API_KEY=your_api_key_here
 VITE_CURRENCY_BASE_URL=https://api.currencyfreaks.com/v2.0/rates/latest?
