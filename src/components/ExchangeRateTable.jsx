@@ -24,7 +24,6 @@ const ExchangeRateTable = () => {
         url: `${baseUrl}apikey=${apiKey}`,
       });
       setCurrencyRates(response.data.rates);
-      console.log(response.data.rates);
       setLoading(false);
     } catch (error) {
       setError("Failed to fetch currency rates.");
